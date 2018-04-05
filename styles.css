@@ -1,0 +1,40 @@
+* {
+  font-family: 'Fauna One', Serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-nav-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-parent-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+
+.cards-container {
+  width: 20%;
+  height: 37.5%;
+}
+
+.photo-click-container {
+  height: 33.3%;
+}
+
+.info-container {
+  height: 66.6%;
+}
