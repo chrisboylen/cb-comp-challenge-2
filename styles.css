@@ -40,6 +40,12 @@ nav {
   color: #c3dfe5;
 }
 
+.main-nav-link:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: #edfcff;
+}
+
 .login-nav-container {
   display: flex;
   flex-direction: column;
@@ -77,7 +83,12 @@ h1 {
   background-color: #8c8c8c;
   justify-content: space-around;
   box-shadow: 4px 4px 11px 3px  #232c30;
-  margin: 8px;
+  margin: .5rem;
+}
+
+.card-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .photo-click-container {
@@ -161,8 +172,17 @@ h3 {
   padding: .4rem;
 }
 
+.link-bkg:hover .info-bkg-color {
+  background-color: #7B878F;
+  --color: #95c4e5;
+}
+
 .info-bkg-color {
   color: #4c5e66;
+}
+
+.info-bkg-color:hover {
+  
 }
 
 .short {
