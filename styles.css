@@ -10,9 +10,15 @@
 
 body {
   max-width: 1600px;
-  background-color: #778991;
-  margin-top: auto;
+  background-color: #465156;
+  margin: auto;
 }
+
+/*header {
+  position: fixed;
+  width: 100%;
+  margin: 0 6rem 0 0;
+}*/
 
 nav {
   height: 7rem;
@@ -39,14 +45,22 @@ nav {
 }
 
 .main-nav-link{
-  margin: 0 2rem 0 0;
+  padding: 0 2rem 0 0;
   color: #d4f1f7;
+}
+
+.menu {
+  display: none;
 }
 
 .main-nav-link:hover {
   cursor: pointer;
   transform: scale(1.1);
-  color: #e8fbff;
+  color: #f7fdff;
+}
+
+.lrg-nav {
+  display: block;
 }
 
 .login-nav-container {
@@ -175,17 +189,12 @@ h3 {
   padding: .4rem;
 }
 
-.link-bkg:hover .info-bkg-color {
-  background-color: #7B878F;
-  --color: #95c4e5;
+.link-bkg:hover  {
+  background-color: #828e96;
 }
 
-.info-bkg-color {
-  color: #4c5e66;
-}
-
-.info-bkg-color:hover {
-  
+.link-bkg:hover a {
+  color: #95c4e5;
 }
 
 .short {
@@ -206,8 +215,65 @@ h3 {
   color: #255868;
 }
 
-@media screen and (max-width: 800px) {
-  body {
-    max-width: 1600px;
-    background-color: #778991;
+@media screen and (max-width: 831px) {
+  .card-container {
+    width: 30%;
   }
+}
+@media screen and (max-width: 700px) {
+  .menu {
+    position: fixed;
+    display: flex;
+  }
+
+  .onclick-menu-content {
+    background-color: rgb(70, 81, 86);
+    margin: 10% 0 0 2%;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    margin: 1rem;
+  }
+
+  hr {
+    color: #95c4e5;
+    margin: 0 2rem 0 0;
+  }
+
+  .lrg-nav {
+    display: none;
+  }
+
+  .one, 
+  .two, 
+  .three, 
+  .four, 
+  .five, 
+  .six, 
+  .seven, 
+  .eight {
+    background-image: url(images/beard-5.jpg);
+  }
+}
+
+  @media screen and (max-width: 512px) {
+   .card-container {
+    width: 100%;
+  } 
+
+  .one, 
+  .two, 
+  .three, 
+  .four, 
+  .five, 
+  .six, 
+  .seven, 
+  .eight {
+    background-image: url(images/borat.jpg);
+    background-position: top;
+  }
+}
