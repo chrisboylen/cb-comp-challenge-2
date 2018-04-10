@@ -5,4 +5,4 @@ Number two in a series of challenges to work on building our HTML/CSS muscle. We
 
 ____
 ## Original Comp
-![Original Comp]
+![Original Comp](st-comp-2-mock.png)
